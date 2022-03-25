@@ -1,0 +1,42 @@
+header{
+  width: 100%;
+  height: 60px;
+  background-color: #2C3E50;
+}
+
+.jumbotron{
+  width: 100%; 
+  height: 450px;
+  background-color: #1abc9c;
+}
+
+.portfolio{
+  width: 100%;
+  height: 500px;
+}
+
+.about{
+  width: 100%;
+  height: 350px;
+  background-color: #1abc9c;
+}
+
+.contact{
+  width: 100%;
+  height: 500px;
+}
+
+.footer-up{
+  width: 100%;
+  height: 150px;
+  background-color: #3a546d;
+}
+
+.footer-down{
+  width: 100%;
+  height: 60px;
+  background-color: #2C3E50;
+}
+
+
+
