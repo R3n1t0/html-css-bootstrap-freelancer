@@ -10,6 +10,10 @@ header{
   align-items: center;
 }
 
+header .container .row .col i{
+  font-size: 30px;
+}
+
 .top{
   height: 100%;
 }
