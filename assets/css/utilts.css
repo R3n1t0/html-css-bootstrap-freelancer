@@ -24,3 +24,7 @@ li{
   color: black;
 }
 
+.container .row .col .lines .line{
+  width: 70px;
+  border-bottom: 3px solid;
+}
