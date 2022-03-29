@@ -24,18 +24,6 @@ header .container .row .col i{
   background-color: #1abc9c;
 }
 
-.jumbotron .container{
-  height: 100%;
-}
-
-.jumbotron .container .row{
-  height: 50%;
-}
-
-.jumbotron .container .row .col{
-  height: 100%;
-}
-
 .jumbotron .container .row .col img{
   height: 100%;
   width: 100%;
@@ -45,6 +33,7 @@ header .container .row .col i{
 
 
 /* main */
+/* portfolio */
 .portfolio{
   width: 100%;
 }
@@ -52,6 +41,35 @@ header .container .row .col i{
 .portfolio .container .row .col{
   border-radius: 10px;
   margin: 10px;
+}
+
+.portfolio .container .row .col{
+  position: relative;
+}
+
+.portfolio .container .row .col .over{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,255, 0, .6);
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.portfolio .container .row .col .over i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+.portfolio .container .row .col:hover .over{
+  display: block;
 }
 
 .portfolio .first{
@@ -71,35 +89,77 @@ header .container .row .col i{
 }
 .portfolio .sixth{
   background-color: #ccb2a3;
-
 }
 
 .portfolio .container .row .col img{
   width: 100%;
 }
+/* /portfolio */
 
+
+/* about */
 .about{
   width: 100%;
-  height: 350px;
   background-color: #1abc9c;
 }
 
-.contact{
-  width: 100%;
-  height: 500px;
+.about .container .row .col a{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
-.footer-up{
+.about .container .row .col a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+/*/ about */
+
+
+/* contact */
+.contact{
   width: 100%;
-  height: 150px;
+}
+
+.contact .container .row .col a{
+  background-color: #1abc9c;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+/*/ contact */
+/*/ main */
+
+
+/* footer */
+/* footer-up */
+footer .footer-up{
+  width: 100%;
   background-color: #3a546d;
 }
 
+footer .footer-up .container .row .col a i{
+  border: 1px white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer .footer-up .container .row .col p span{
+  color: #1abc9c;
+}
+/*/ footer-up */
+
+/* footer-down */
 .footer-down{
   width: 100%;
-  height: 60px;
   background-color: #2C3E50;
 }
+
+footer .footer-down .container .row .col p{
+  font-size: 9px;
+}
+/*/ footer-down */
+/*/ footer */
 
 
 

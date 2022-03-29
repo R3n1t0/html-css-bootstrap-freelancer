@@ -7,6 +7,10 @@ a{
   color: white;
 }
 
+a:hover{
+  color: white;
+}
+
 li{
   list-style: none;
   margin-left: 10px;
@@ -15,3 +19,8 @@ li{
 .portfolio{
   color: black;
 }
+
+.contact{
+  color: black;
+}
+
