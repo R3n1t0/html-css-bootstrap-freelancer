@@ -25,6 +25,7 @@ li{
 }
 
 .container .row .col .lines .line{
-  width: 70px;
+  width: 15%;
   border-bottom: 3px solid;
+  border-radius: 20px;
 }
